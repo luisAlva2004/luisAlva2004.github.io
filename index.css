@@ -1,0 +1,117 @@
+/* Estilos y fuente con Google Fonts */
+body {
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+background-color: #f5f5f5;
+color: #333;
+line-height: 1.6;
+}
+
+/* Encabezado */
+.header {
+text-align: center;
+padding: 50px 20px;
+background: linear-gradient(to right, #1a3c40, #1f5f5b);
+color: white;
+}
+
+.header h1 {
+font-family: 'Merriweather', serif;
+margin-bottom: 10px;
+}
+
+.header p {
+font-style: italic;
+margin-bottom: 20px;
+}
+
+/* Navegación */
+.navbar {
+margin-top: 15px;
+}
+
+.navbar a {
+color: white;
+margin: 1.5cm;
+text-decoration: none;
+font-weight: bold;
+}
+
+.navbar a:hover {
+text-decoration: underline;
+}
+
+/* Secciones */
+section {
+padding: 2em 10em;
+max-width: 90%;
+margin: auto;
+}
+
+h2 {
+font-family: 'Merriweather', serif;
+margin-bottom: 0.8em;
+color: #1a3c40;
+}
+
+/* Proyectos*/
+.experience-item {
+background: #fff;
+padding: 0.8em;
+margin: 0.8em 0;
+border-radius: 0.5em;
+box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.date {
+font-size: 1.2sem;
+color: #777;
+}
+
+/* Footer */
+footer {
+text-align: center;
+padding-bottom: 1em;
+background: #1a3c40;
+color: white;
+}
+
+footer p{
+    font-size: 1.1em;
+}
+
+footer a {
+color: #ffdd57;
+text-decoration: none;
+margin: 10px;
+font-size: 1.1em;
+transition: color 0.8s;
+}
+
+footer a:hover {
+text-decoration: underline;
+color: #fff;
+}
+
+footer a i{
+    margin: 8px;
+    font-size: 0.9em;
+    vertical-align: middle;
+}
+
+.copy {
+margin-top: 10px;
+font-size: 0.8em;
+color: #ddd;
+}
+
+.footer-h2{
+    color: #ddd;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
