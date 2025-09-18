@@ -43,7 +43,7 @@ text-decoration: underline;
 
 /* Secciones */
 section {
-padding: 2em 10em;
+padding: 2em 2em;
 max-width: 90%;
 margin: auto;
 }
@@ -115,3 +115,4 @@ color: #ddd;
 html {
     scroll-behavior: smooth;
 }
+
